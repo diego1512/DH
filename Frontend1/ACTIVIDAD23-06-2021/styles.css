@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* inicio nav */
+nav {
+  background-color: #222222;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+    width: 200px;
+    height: 130px;
+    align-items:flex-end;
+}
+nav ul li {
+    font-size: 35px;
+    color: #ffffff;
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+/* inicio main */
+article {
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.conteinerPublividad {
+    background-image: url("imgPublicidad.jpg");
+    display: inline-block;
+    
+}
